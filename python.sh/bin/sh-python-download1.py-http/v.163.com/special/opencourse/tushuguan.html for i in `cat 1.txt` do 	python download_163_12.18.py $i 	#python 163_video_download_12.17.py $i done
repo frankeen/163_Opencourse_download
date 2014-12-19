@@ -1,0 +1,7 @@
+#!/bin/sh
+#使用方法 python download.py http://v.163.com/special/opencourse/tushuguan.html
+#新建个txt文本，文本里保存url链接
+for i in `cat 1.txt`
+do
+	python download.py $i
+done
